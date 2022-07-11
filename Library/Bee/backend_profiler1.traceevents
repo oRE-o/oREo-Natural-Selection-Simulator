@@ -1,0 +1,488 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657264471279500, "dur":883, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471280385, "dur":637, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657264471281035, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657264471281043, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657264471281111, "dur":198, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471281309, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292481, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292489, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292514, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292518, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292537, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292539, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292560, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292562, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292579, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292582, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292601, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292603, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292621, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292624, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292641, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292643, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292661, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292662, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471292664, "dur":961, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657264471281060, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471281316, "dur":819, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471282135, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657264471282137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471282563, "dur":93, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657264471282657, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657264471282688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471282795, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283178, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283279, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283575, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283605, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283616, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1657264471283969, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284026, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284203, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284502, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284519, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284664, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284669, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471284827, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471285252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471285326, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471285670, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471286494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471286495, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471286609, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471286717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471286719, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471286991, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471287606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471287616, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471287933, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288061, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288213, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288426, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288755, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471288906, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471289109, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471289342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471289343, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471289491, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471289995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290002, "dur":220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290225, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290429, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290622, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471290807, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291056, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291335, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291541, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291548, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1657264471291960, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1657264471292068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657264471292070, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1657264471292371, "dur":96, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471281070, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471281317, "dur":860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471282179, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657264471282191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471282941, "dur":377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283324, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283338, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283564, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283617, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1657264471283982, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":2, "ts":1657264471284042, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471284183, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":2, "ts":1657264471284481, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471284911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471284912, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285046, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285073, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285206, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285210, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285636, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285777, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471285964, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286073, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286181, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286201, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286318, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286454, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471286592, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471287640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471287642, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471287856, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471288010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471288026, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471288190, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471288668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471288689, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471288823, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471289048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471289050, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471289232, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471289735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471289760, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471289932, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290136, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290323, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290329, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290515, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290702, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471290888, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471291179, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471291342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471291418, "dur":249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657264471291694, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1657264471291728, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657264471291838, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1657264471292255, "dur":228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471281077, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471281319, "dur":863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471282185, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657264471282196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283028, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283405, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283465, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283551, "dur":203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283759, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471283816, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1657264471284168, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux.x86_64" }}
+,{ "pid":12345, "tid":3, "ts":1657264471284209, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471284312, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux.x86_64" }}
+,{ "pid":12345, "tid":3, "ts":1657264471284467, "dur":905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471285373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471285375, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471285742, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471285901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471285903, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471286025, "dur":1043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287070, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287215, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287560, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287757, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471287942, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288092, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288098, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288230, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288236, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471288628, "dur":1505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471290134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471290136, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471290368, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471290647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471290649, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471290983, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291136, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291231, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291453, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291601, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291918, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657264471291923, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657264471292247, "dur":232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471281083, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471281320, "dur":879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471282199, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1657264471282658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471282856, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1657264471283177, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1657264471283186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471283194, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1657264471283434, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1657264471283768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471283771, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284172, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/UnityPlayer.so" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284227, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284323, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/UnityPlayer.so" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284540, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284666, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284836, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471284934, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285073, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285180, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285347, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285447, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285610, "dur":262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285873, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285968, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471285969, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286085, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286353, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286478, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286685, "dur":241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286951, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471286969, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471287036, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471287152, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471287512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471287514, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471287665, "dur":1960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471289626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471289628, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471289838, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471289842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471289844, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471289983, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290137, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290307, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290468, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290713, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290885, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471290990, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471291275, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471291426, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471291526, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657264471291846, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657264471291888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471291890, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657264471292101, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1657264471292116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657264471292118, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1657264471292368, "dur":98, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471281089, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471281322, "dur":869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471282193, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657264471282199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471282915, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657264471283251, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1657264471283544, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471283615, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1657264471284071, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1657264471284130, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471284309, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1657264471284524, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471285119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471285121, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471285604, "dur":2131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471287736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471287751, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471287919, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289041, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289203, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289487, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289664, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289669, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289859, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471289865, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290035, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290229, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290408, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290612, "dur":276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290948, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471290977, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291075, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291340, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291409, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291837, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657264471291962, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1657264471292278, "dur":210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471281095, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471281323, "dur":831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471282156, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":6, "ts":1657264471282213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471282332, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":6, "ts":1657264471282883, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1657264471283021, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471283113, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1657264471283266, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1657264471283504, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471283623, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1657264471284231, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471284427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471284492, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471284617, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471285125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471285127, "dur":327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471285496, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471285682, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471285723, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471285899, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286275, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286402, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286653, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286839, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286923, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471286953, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471287128, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471287437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471287439, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471287600, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471287893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471287895, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471288030, "dur":1390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471289421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471289423, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471289586, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471290373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471290375, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471290584, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471290615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471290626, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471290958, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291084, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291187, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291465, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291649, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291895, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471291901, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657264471292217, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1657264471292254, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657264471292340, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1657264471292457, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1657264471292458, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471281101, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471281324, "dur":848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471282174, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1657264471282188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471282677, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1657264471283087, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1657264471283421, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471283598, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1657264471284182, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471284593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471284595, "dur":99, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471284696, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471284842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471284845, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471285009, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471285251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471285274, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471285681, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286102, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286245, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286249, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286383, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286387, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286526, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471286742, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471287014, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471287153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471287155, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471287278, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471288221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471288223, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471288656, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471288861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471288863, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471289021, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471289995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471290000, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471290178, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471290422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471290424, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471290639, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471290886, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291005, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291323, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291423, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291518, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291978, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657264471291990, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1657264471292288, "dur":200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471281108, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471281329, "dur":865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471282195, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657264471282202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471283105, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657264471283512, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1657264471283673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471283677, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1657264471283866, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":8, "ts":1657264471283878, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284078, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284475, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284695, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284851, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471284971, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285119, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285123, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285308, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285505, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285648, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471285881, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471286563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471286577, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471286675, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471286678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471286679, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471286966, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471287495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471287496, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471287821, "dur":1008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471288830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471288832, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471288971, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471289137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471289139, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471289286, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471289441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471289443, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471289613, "dur":1141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471290755, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471290936, "dur":249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471291226, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471291252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471291254, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657264471291557, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657264471291666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471291667, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657264471292057, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1657264471292172, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657264471292276, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/oreo/Unity Projects/Build_changgaeyon/Linux_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1657264471292405, "dur":89, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657264471294402, "dur":326, "ph":"X", "name": "ProfilerWriteOutput" }
+,
